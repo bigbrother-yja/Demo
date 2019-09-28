@@ -143,6 +143,10 @@ public class TestHandler extends AbstractHandler {
 	    //6TD-1020500-C112
 	    TCComponent component = (TCComponent)targets[0];
 	    System.out.println(">>>>>>> component Type = "+component.getType());
+	    
+	    //6.测试新增验证功能
+	    
+	    System.out.println("测试新增验证功能！");
 
 	    return null;
 	}
