@@ -145,8 +145,11 @@ public class TestHandler extends AbstractHandler {
 	    System.out.println(">>>>>>> component Type = "+component.getType());
 	    
 	    //6.测试新增验证功能
-	    
 	    System.out.println("测试新增验证功能！");
+	    System.err.println("OK");
+	    
+	    //7.新增功能验证02
+	    System.out.println("OKOK02");
 
 	    return null;
 	}
