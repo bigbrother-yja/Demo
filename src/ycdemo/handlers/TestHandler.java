@@ -149,7 +149,7 @@ public class TestHandler extends AbstractHandler {
 	    System.err.println("OK");
 	    
 	    //7.新增功能验证02
-	    System.out.println("OKOK02");
+	    System.out.println("OK2");
 
 	    return null;
 	}
