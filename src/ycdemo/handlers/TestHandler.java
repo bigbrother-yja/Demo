@@ -150,6 +150,7 @@ public class TestHandler extends AbstractHandler {
 	    
 	    //7.新增功能验证02
 	    System.out.println("OK2");
+	    System.out.println("OK2");
 
 	    return null;
 	}
@@ -233,7 +234,6 @@ public class TestHandler extends AbstractHandler {
 	public   HashMap<String, TCComponent> CustomItemsKeyValue(TCComponentItemRevision itemRev)throws Exception{
 		//抽象件Key，客制化零件Value
 		HashMap<String, TCComponent> hashMap  = new HashMap<String, TCComponent>();hashMap.clear();
-		
 		//供货代号下客制化零件清单
 		TCComponent[] customerItems = itemRev.getRelatedComponents("Y7CustomizedItemList");
 		for (TCComponent customerItem : customerItems) {
